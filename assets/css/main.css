@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 4px solid #BA8863;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header li{
+    display: inline;
+    float: rigth;
+}
+
+.header a{
+    display: inline-block;
+    padding: 8px;
+    background-color: ;
+}
+
+.carousel-inner {
+  max-height: 400px; /* o el alto que prefieras */
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px;
+}
+
+.custom-bg {
+    background-color: #F2F2F2;
+}
+
+.button-header {
+    background-color: #BA8863;
+    border: none;
+    color: #F2F2F2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#pie {
+    background-color: #B0B0B0;
+}
