@@ -11,7 +11,7 @@
             <ul>
                 <li><a href='index.html' class="button-header">Inicio</a></li>
                 <li><a href='about.html' class="button-header">Servicios</a></li>
-                <li><a href='contact.html' class="button-header">Contacto</a></li>
+                <li><a href='contact.php' class="button-header">Contacto</a></li>
             </ul>
         </header>
 
@@ -24,29 +24,32 @@
                         <p>Si ingresa un capacitador, este mismo sera el que continue el proceso de su cotizacion</p>
                     </div>
                     <div class="col-6">
-                        <form method="" action="">
+                        <p>Correo de contacto: cereiaconsultoria@gmail.com</p><br>
+                        <p>Numero de contacto (Solo Whatsapp): +52 5633061013</p>
+                        <!--
+                        <form method="POST" action="mail.php">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Nombre(s)</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+                                <input type="text" class="form-control" id="names" placeholder="correo@ejemplo.com">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput2" class="form-label">Apellido(s)</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="correo@ejemplo.com">
+                                <input type="text" class="form-control" id="lastNames" placeholder="correo@ejemplo.com">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput4" class="form-label">Correo</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="correo@ejemplo.com">
+                                <input type="email" class="form-control" id="mail" placeholder="correo@ejemplo.com">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput2" class="form-label">Capacitador</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="correo@ejemplo.com">
+                                <input type="text" class="form-control" id="capacitator" placeholder="correo@ejemplo.com">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput2" class="form-label">Detalles extra</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="correo@ejemplo.com">
+                                <input type="text" class="form-control" id="details" placeholder="correo@ejemplo.com">
                             </div>
                             <button class="button-header" type="submit">Enviar</button>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
 
